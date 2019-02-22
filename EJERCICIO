@@ -1,0 +1,138 @@
+function setup() {
+
+  createCanvas(400, 400);
+
+  background(0);
+
+  rect(100, 100, 200, 200);
+
+}
+
+
+function draw() {
+
+  var valor = random(0, 6);
+
+  if (mouseX > 99 & 300 > mouseX) {
+
+    if (mouseY > 99 & 300 > mouseY) {
+
+      if (mouseIsPressed) {
+
+        if (valor > 0 & valor < 1) {
+
+          rect(100, 100, 200, 200);
+
+          uno();
+
+        } else if (valor > 1 & valor < 2) {
+
+          rect(100, 100, 200, 200);
+
+          dos();
+
+        } else if (valor > 2 & valor < 3) {
+
+          rect(100, 100, 200, 200);
+
+          tres();
+
+        } else if (valor > 3 & valor < 4) {
+
+          rect(100, 100, 200, 200);
+
+          cuatro();
+
+        } else if (valor > 5 & valor < 6) {
+
+          rect(100, 100, 200, 200);
+
+          cinco();
+
+        } else if (valor = 6) {
+
+          rect(100, 100, 200, 200);
+
+          seis();
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+function uno() {
+
+  ellipse(200, 200, 20, 20);
+
+}
+
+
+function dos() {
+
+  ellipse(150, 150, 20, 20);
+
+  ellipse(250, 250, 20, 20);
+
+}
+
+
+function tres() {
+
+  ellipse(150, 150, 20, 20);
+
+  ellipse(250, 250, 20, 20);
+
+  ellipse(200, 200, 20, 20);
+
+}
+
+
+function cuatro() {
+
+  ellipse(150, 150, 20, 20);
+
+  ellipse(150, 250, 20, 20);
+
+  ellipse(250, 150, 20, 20);
+
+  ellipse(250, 250, 20, 20);
+
+}
+
+
+function cinco() {
+
+  ellipse(200, 200, 20, 20);
+
+  ellipse(150, 150, 20, 20);
+
+  ellipse(150, 250, 20, 20);
+
+  ellipse(250, 150, 20, 20);
+
+  ellipse(250, 250, 20, 20);
+
+}
+
+
+function seis() {
+
+  ellipse(150, 200, 20, 20);
+
+  ellipse(250, 200, 20, 20);
+
+  ellipse(150, 150, 20, 20);
+
+  ellipse(150, 250, 20, 20);
+
+  ellipse(250, 150, 20, 20);
+
+  ellipse(250, 250, 20, 20);
+
+}
